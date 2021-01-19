@@ -1,0 +1,38 @@
+Subscription for cleaning Home Service
+
+Subscription by room qty and subscription by service all is monthly
+or pay by service
+
+User:[
+ first_name, last_name, email, phone, password, is_worker
+]
+
+Subscription:[
+ bathroom, bed_room, kitchen, living_room, balcony, other_rooms, user_id, no_visits,
+],
+
+Service:[
+ type:[monthly, weekly, daily and Per_service], duration, no_staff, user_id, date
+]
+
+Duration:[
+  service_id, name
+]
+
+Event_tracker:[
+ is_available, event_id, user_id
+]
+
+Events:[
+ worker_id, amount, user_id
+]
+
+Notification:[
+ read:boolean, message
+]
+
+Automation:
+signup and login
+Select Service type
+recurrent Payment for Service Subscribed to
+Notification on Services
